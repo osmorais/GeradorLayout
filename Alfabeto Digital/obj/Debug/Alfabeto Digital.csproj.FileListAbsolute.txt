@@ -1,0 +1,14 @@
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe.config
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.pdb
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.csprojResolveAssemblyReference.cache
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.csproj.CoreCompileInputs.cache
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.exe
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.pdb
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe.config
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\bin\Debug\Alfabeto Digital.pdb
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.csprojResolveAssemblyReference.cache
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.csproj.CoreCompileInputs.cache
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.exe
+C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.pdb
