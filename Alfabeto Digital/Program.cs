@@ -246,8 +246,11 @@ namespace Alfabeto_Digital
 				Console.ResetColor();
 				palavra = EntradaString("Digite o layout que deseja gerar: ");
 				numLetras = palavra.Length;
+				exibicaoLayout(lt, palavra, numLetras);
+				Console.WriteLine("\n\n\n\t\tPressione qualquer tecla para continuar...");
+				Console.ReadKey();
 
-				FileStream arquivo = new FileStream(pathAtivo,FileMode.Open,FileAccess.ReadWrite);
+				FileStream arquivo = new FileStream(pathAtivo, FileMode.Open, FileAccess.ReadWrite);
 				StreamWriter layout = new StreamWriter(arquivo);
 				for (int linha = 1; linha <= 8; linha++)
 				{
@@ -284,10 +287,48 @@ namespace Alfabeto_Digital
 				layout.WriteLine("\nConsole.ReadKey();");
 				layout.Close();
 				arquivo.Close();
-				ApresentacaoVinheta("Gerando Layout. Aguarde...",1);
+				ApresentacaoVinheta("Gerando Layout. Aguarde...", 1);
 				Console.WriteLine("\n\n\n\t\tLayout Gerado com Sucesso!!\n\tPressione qualquer tecla para continuar...");
 				Console.ReadKey();
 			}
+		}
+
+		private static void exibicaoLayout(letra[] lt, string palavra, int numLetras)
+		{
+			Console.ForegroundColor = ConsoleColor.Cyan;
+			//NUMERO DE LINHAS
+			for (int linha = 1; linha <= 8; linha++)
+			{
+				//LETRA DIGITADA
+				for (int posicaolt = 0; posicaolt < numLetras; posicaolt++)
+				{
+					//LETRAS DO ALFABETO
+					for (int z = 0; z < 27; z++)
+					{
+						if (palavra[posicaolt] == lt[z].predef)
+						{
+							if ((linha == 1) && (posicaolt == 0)) Console.Write("\n\n\n" + lt[z].linha1 + "");
+							else if (linha == 1) Console.Write(lt[z].linha1 + "");
+							if ((linha == 2) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha2 + "");
+							else if (linha == 2 && posicaolt != 0) Console.Write(lt[z].linha2 + "");
+							if ((linha == 3) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha3 + "");
+							else if (linha == 3 && posicaolt != 0) Console.Write(lt[z].linha3 + "");
+							if ((linha == 4) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha4 + "");
+							else if (linha == 4 && posicaolt != 0) Console.Write(lt[z].linha4 + "");
+							if ((linha == 5) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha5 + "");
+							else if (linha == 5 && posicaolt != 0) Console.Write(lt[z].linha5 + "");
+							if ((linha == 6) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha6 + "");
+							else if (linha == 6 && posicaolt != 0) Console.Write(lt[z].linha6 + "");
+							if ((linha == 7) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha7 + "");
+							else if (linha == 7 && posicaolt != 0) Console.Write(lt[z].linha7 + "");
+							if ((linha == 8) && (posicaolt == 0)) Console.Write("\n" + lt[z].linha8 + "");
+							else if (linha == 8 && posicaolt != 0) Console.Write(lt[z].linha8 + "");
+						}
+					}
+				}
+			}
+			Console.WriteLine("\n\n\t\t\tCopyright Oficial SysInfo ©");
+			Console.ResetColor();
 		}
 
 		private static void by(letra[] lt, int menu, ref string palavra, ref int numLetras)
