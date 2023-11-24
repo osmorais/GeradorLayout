@@ -64,7 +64,7 @@ namespace Alfabeto_Digital
 			inicio();
 			string pathAtivo = "";
 			string FileName = "";
-			string pathRoot = @"C:\Users\osmar\Desktop\comando layout";
+			string pathRoot = @"C:\Users\osmar.junior\Desktop\comando layout";
 			if(!File.Exists(pathRoot)) System.IO.Directory.CreateDirectory(pathRoot);
 			letra[] lt = new letra[27];
 			alfabeto(lt);
@@ -305,7 +305,7 @@ namespace Alfabeto_Digital
 					//LETRAS DO ALFABETO
 					for (int z = 0; z < 27; z++)
 					{
-						if (palavra[posicaolt] == lt[z].predef)
+						if ((palavra[posicaolt] == lt[z].predef) || (palavra[posicaolt] == lt[z].predef2))
 						{
 							if ((linha == 1) && (posicaolt == 0)) Console.Write("\n\n\n" + lt[z].linha1 + "");
 							else if (linha == 1) Console.Write(lt[z].linha1 + "");

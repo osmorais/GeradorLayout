@@ -12,3 +12,11 @@ C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto D
 C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.exe
 C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.pdb
 C:\Users\osmar\Desktop\ARQUIVOS\Sistemas de Informação\2º Semestre\Alfabeto Digital\Alfabeto Digital\obj\Debug\Alfabeto Digital.csprojAssemblyReference.cache
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe.config
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\bin\Debug\Alfabeto Digital.exe
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\bin\Debug\Alfabeto Digital.pdb
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\obj\Debug\Alfabeto Digital.csproj.AssemblyReference.cache
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\obj\Debug\Alfabeto Digital.csproj.SuggestedBindingRedirects.cache
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\obj\Debug\Alfabeto Digital.csproj.CoreCompileInputs.cache
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\obj\Debug\Alfabeto Digital.exe
+C:\Users\osmar.junior\Desktop\TRABS\magica\GeradorLayout\Alfabeto Digital\obj\Debug\Alfabeto Digital.pdb
